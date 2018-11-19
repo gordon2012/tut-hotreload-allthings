@@ -7,4 +7,4 @@
 ### https://hackernoon.com/hot-reload-all-the-things-ec0fed8ab0
 
 - [x] Part I: Server
-- [ ] Part II: React with HMR on the server and client
+- [x] Part II: React with HMR on the server and client
