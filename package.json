@@ -1,0 +1,32 @@
+{
+  "name": "tut-hotreload-allthings",
+  "version": "1.0.0",
+  "description": "- [ ] Part I: Server\r - [ ] Part II: React with HMR on the server and client",
+  "main": "index.js",
+  "scripts": {
+    "start:server": "rm -rf ./build && webpack --config webpack.config.server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gordon2012/tut-hotreload-allthings.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gordon2012/tut-hotreload-allthings/issues"
+  },
+  "homepage": "https://github.com/gordon2012/tut-hotreload-allthings#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "start-server-webpack-plugin": "^2.2.5",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
